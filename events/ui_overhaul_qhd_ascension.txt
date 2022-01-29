@@ -1,0 +1,67 @@
+namespace = ui_overhaul_qhd_ascension
+country_event = {
+    id = ui_overhaul_qhd_ascension.01
+	title = ui_overhaul_qhd_ascension.01.name
+	desc = ui_overhaul_qhd_ascension.01.desc
+	picture = GFX_evt_announcement
+	show_sound = event_announcement
+	location = root
+	is_triggered_only = yes
+	pre_triggers = {
+		is_ai = no
+	}
+ 	immediate = {
+ 		set_global_flag = ui_overhaul_qhd_ascension_tech_popup
+ 	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.no
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.a
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_4
+		}
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.b
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_8
+		}
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.c
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_12
+		}
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.d
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_24
+		}
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.e
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_36
+		}
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.f
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_52
+		}
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.g
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_84
+		}
+	}
+	option = {
+		name = ui_overhaul_qhd_ascension.01.h
+		hidden_effect = {
+			set_global_flag = ui_overhaul_qhd_ascension_tech_92
+		}
+	}
+}
